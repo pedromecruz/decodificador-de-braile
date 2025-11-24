@@ -59,16 +59,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(110,60)" to="(110,110)"/>
+    <wire from="(150,120)" to="(240,120)"/>
     <wire from="(140,90)" to="(200,90)"/>
-    <wire from="(170,60)" to="(170,80)"/>
-    <wire from="(140,90)" to="(140,110)"/>
     <wire from="(140,60)" to="(140,70)"/>
     <wire from="(120,70)" to="(120,110)"/>
+    <wire from="(240,120)" to="(240,130)"/>
+    <wire from="(230,130)" to="(230,140)"/>
+    <wire from="(220,140)" to="(220,150)"/>
+    <wire from="(120,70)" to="(140,70)"/>
+    <wire from="(150,130)" to="(230,130)"/>
+    <wire from="(110,60)" to="(110,110)"/>
+    <wire from="(170,60)" to="(170,80)"/>
+    <wire from="(140,90)" to="(140,110)"/>
+    <wire from="(150,140)" to="(220,140)"/>
     <wire from="(130,80)" to="(170,80)"/>
     <wire from="(130,80)" to="(130,110)"/>
     <wire from="(200,60)" to="(200,90)"/>
-    <wire from="(120,70)" to="(140,70)"/>
     <comp lib="0" loc="(140,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -444,9 +450,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(140,260)" to="(150,260)"/>
     <wire from="(140,280)" to="(150,280)"/>
     <wire from="(60,40)" to="(60,100)"/>
-    <wire from="(200,100)" to="(330,100)"/>
-    <wire from="(200,190)" to="(330,190)"/>
     <comp lib="1" loc="(140,210)" name="NOT Gate"/>
+    <comp lib="0" loc="(490,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="1" loc="(140,100)" name="NOT Gate"/>
     <comp lib="1" loc="(140,280)" name="NOT Gate"/>
     <comp lib="0" loc="(60,40)" name="Pin">
@@ -464,6 +473,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(140,260)" name="NOT Gate"/>
+    <comp lib="0" loc="(490,120)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="6" loc="(215,69)" name="Text">
       <a name="text" val="MAIUSCULAS | 46 (M1)"/>
       <a name="font" val="SansSerif bold 12"/>
@@ -474,12 +488,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(140,170)" name="NOT Gate"/>
     <comp lib="1" loc="(140,120)" name="NOT Gate"/>
+    <comp lib="0" loc="(490,180)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="1" loc="(200,190)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="6" loc="(215,159)" name="Text">
       <a name="text" val="NUMEROS | 3456 (M1)"/>
       <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(490,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="6" loc="(234,250)" name="Text">
       <a name="text" val="MINUSCULOS | NENHUM (M1)"/>
