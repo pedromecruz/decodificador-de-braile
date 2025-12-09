@@ -10,6 +10,7 @@ Para o desenvolvimento do projeto, foi usado o Logisim, que deixei upado no git 
 
 ### Projeto completo
 Aqui, tem uma imagem do circuito completo.
+
 <img width="470" height="428" alt="Image" src="https://github.com/user-attachments/assets/d1bae5d4-f111-41b3-828f-3f133c543af2" />
 
 ### Inserção de dados e coleta de resultados
